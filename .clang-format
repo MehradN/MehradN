@@ -1,0 +1,21 @@
+---
+Language: Cpp
+Standard: c++XX
+BasedOnStyle: Mozilla
+IndentWidth: 4
+
+AllowShortBlocksOnASingleLine: Empty
+BinPackArguments: true
+BreakBeforeBraces: Attach
+InsertNewlineAtEOF: true
+PackConstructorInitializers: Never
+
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: true
+IndentCaseLabels: false
+IndentExternBlock: NoIndent
+IndentRequiresClause: false
+SpaceBeforeParens: ControlStatementsExceptControlMacros
+
