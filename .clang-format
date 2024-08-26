@@ -5,6 +5,8 @@ BasedOnStyle: Mozilla
 IndentWidth: 4
 
 AllowShortBlocksOnASingleLine: Empty
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
 BinPackArguments: true
 BreakBeforeBraces: Attach
 InsertNewlineAtEOF: true
@@ -18,4 +20,3 @@ IndentCaseLabels: false
 IndentExternBlock: NoIndent
 IndentRequiresClause: false
 SpaceBeforeParens: ControlStatementsExceptControlMacros
-
