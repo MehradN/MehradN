@@ -20,3 +20,5 @@ IndentCaseLabels: false
 IndentExternBlock: NoIndent
 IndentRequiresClause: false
 SpaceBeforeParens: ControlStatementsExceptControlMacros
+
+SortIncludes: false
