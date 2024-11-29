@@ -1,24 +1,15 @@
 ---
 Language: Cpp
-Standard: c++XX
-BasedOnStyle: Mozilla
-IndentWidth: 4
+BasedOnStyle: Microsoft
 
-AllowShortBlocksOnASingleLine: Empty
-AlwaysBreakAfterDefinitionReturnType: None
-AlwaysBreakAfterReturnType: None
-BinPackArguments: true
+AlignConsecutiveAssignments:
+  PadOperators: false
+AlwaysBreakTemplateDeclarations: Yes
 BreakBeforeBraces: Attach
+EmptyLineBeforeAccessModifier: Leave
+IndentRequiresClause: false
 InsertNewlineAtEOF: true
 PackConstructorInitializers: Never
-
-AlignConsecutiveAssignments: None
-AlignConsecutiveDeclarations: None
-ContinuationIndentWidth: 4
-Cpp11BracedListStyle: true
-IndentCaseLabels: false
-IndentExternBlock: NoIndent
-IndentRequiresClause: false
-SpaceBeforeParens: ControlStatementsExceptControlMacros
-
-SortIncludes: false
+PenaltyBreakAssignment: 19
+PenaltyBreakBeforeFirstCallParameter: 1
+PenaltyBreakFirstLessLess: 2
